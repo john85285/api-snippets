@@ -1,22 +1,6 @@
-<?php
-require __DIR__ . '/vendor/autoload.php';
-use Twilio\Rest\Client;
-
-// Your Account SID and Auth Token from twilio.com/console
-$account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
-$auth_token = 'your_auth_token';
-// In production, these should be environment variables. E.g.:
-// $auth_token = $_ENV["TWILIO_ACCOUNT_SID"]
-
-// A Twilio number you own with SMS capabilities
-$twilio_number = "+15017122661";
-
-$client = new Client($account_sid, $auth_token);
-$client->messages->create(
-    // Where to send a text message (your cell phone?)
-    '+15558675310',
-    array(
-        'from' => $twilio_number,
-        'body' => 'I sent this message in under 10 minutes!'
-    )
-);
+print "<p>Have some financial urgency?</p>\n";
+print "<div>Looking for some cash to solve your temporary problem?</div>\n";
+print "<div>Apply for a personal loan, auto loan, medical loan and get approval in minutes</div>\n";
+print "<div>with same day deposit.</div>\n";
+print "<div>Click here to apply now</div>\n";
+print "<div><a href=\"http://800creditmarts.com/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://800creditmarts.com/&source=gmail&ust=1555185500189000&usg=AFQjCNGoXjplg1xlPF0CttYeDyNZIoj97g\">http://800creditmarts.com</a></div>";
